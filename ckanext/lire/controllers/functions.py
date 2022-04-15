@@ -7,7 +7,7 @@ import json
 import mimetypes
 import posixpath
 import urllib
-import urlparse
+from urllib.parse import urlparse
 import ckan.plugins.toolkit as toolkit
 
 from ckan.lib.base import request
